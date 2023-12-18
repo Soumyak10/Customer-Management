@@ -26,7 +26,7 @@ export const getCustomerList = async (req, res) => {
             ],
         };
 
-        console.log(query);
+        // console.log(query);
 
         const startIndex = (page - 1) * limit;
 
